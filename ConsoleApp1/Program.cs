@@ -63,10 +63,7 @@ namespace Lotto_szovegfajlbol
             }
         }
 
-        /***
-         * egy heti sorsolással összehasonlítja a tippeket
-         */
-        static int Talalat(int[] sorsolt, int[] tippelt)
+         static int Talalat(int[] sorsolt, int[] tippelt)
         {
             int talalat = 0;
             for (int i = 0; i < sorsolt.Length; i++)
